@@ -14,7 +14,7 @@ class TransactionList extends StatelessWidget {
       child: transactions.isEmpty
           ? Column(
               children: [
-                SizedBox(
+                const SizedBox(
                   height: 30,
                 ),
                 Text(
